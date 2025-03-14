@@ -1,0 +1,31 @@
+.mdx-css-wrapper p {
+  @apply mt-2 mb-4 text-base leading-7 text-gray-700;
+}
+
+.mdx-css-wrapper .callout p {
+  @apply mt-2 mb-4 text-lg leading-7 text-gray-700;
+}
+
+.mdx-css-wrapper h1 {
+  @apply font-bold text-4xl mt-4 mb-8;
+}
+
+.mdx-css-wrapper h2 {
+  @apply text-3xl font-bold text-green-600 mt-8;
+}
+.mdx-css-wrapper h3 {
+  @apply text-xl font-bold text-green-600 mt-8;
+}
+
+.mdx-css-wrapper ul {
+  @apply list-disc pl-4;
+}
+
+.mdx-css-wrapper li strong {
+  @apply text-base font-bold text-green-600 mt-8;
+}
+
+.mdx-css-wrapper li::marker {
+  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
+  font-size: 1.2em; /* (Tùy chọn) chỉnh kích thước */
+}
