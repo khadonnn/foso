@@ -15,7 +15,13 @@ const Header = () => {
           <div className="flex items-center space-x-2 lg:w-1/6 ">
             <div className="text-white font-bold text-xl min-h-14">
               <Link href="/">
-                <Image src={logo.src} alt="Logo" width={134} height={54} priority objectFit="contain" />
+                <Image
+                  src={logo.src}
+                  alt="Logo"
+                  width={134}
+                  height={54}
+                  priority
+                />
               </Link>
             </div>
           </div>
@@ -36,9 +42,17 @@ const Header = () => {
 export const HeaderTools = ({ isMobile }: { isMobile?: boolean }) => {
   return (
     <div
-      className={isMobile ? "flex items-center space-x-4 md:w-2/6" : "hidden items-center space-x-4 md:w-2/6 lg:flex"}
+      className={
+        isMobile
+          ? "flex items-center space-x-4 md:w-2/6"
+          : "hidden items-center space-x-4 md:w-2/6 lg:flex"
+      }
     >
-      <div className={`relative flex gap-2 justify-end items-center w-full ${isMobile ? "flex-col" : "flex-row"}`}>
+      <div
+        className={`relative flex gap-2 justify-end items-center w-full ${
+          isMobile ? "flex-col" : "flex-row"
+        }`}
+      >
         <div className="border-primary text-primary hover:custom-green h-full w-fit">
           <SelectDemo />
         </div>

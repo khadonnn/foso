@@ -13,7 +13,6 @@ const BlogHeader = () => {
             priority
             width={150}
             height={150}
-            objectFit="contain"
           />
         </div>
 
@@ -25,7 +24,8 @@ const BlogHeader = () => {
             </h1>
           </div>
           <h2 className="mt-2 text-xl font-semibold">
-            Cập Nhật Tin Tức <span className="text-green-600 font-bold">Mới Nhất</span>
+            Cập Nhật Tin Tức{" "}
+            <span className="text-green-600 font-bold">Mới Nhất</span>
           </h2>
           <p className="text-sm text-gray-500 mt-1">
             Cung cấp thông tin chuyên ngành về đổi mới sáng tạo và chuyển đổi số
@@ -40,7 +40,6 @@ const BlogHeader = () => {
             priority
             width={150}
             height={150}
-            objectFit="contain"
           />
         </div>
       </div>
